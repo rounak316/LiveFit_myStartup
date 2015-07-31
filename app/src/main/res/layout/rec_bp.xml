@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    android:paddingTop="14dp"
+    android:clickable="true"
+    android:paddingBottom="3dp"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/circle"
+            android:tint="#ffffff"
+            android:padding="8dp"
+
+            android:src="@drawable/bike"
+            android:scaleType="fitCenter"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+
+            android:background="#ffffff"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:lines="1"
+                android:id="@+id/name"
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:text="Prakhar Agnihotri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:id="@+id/adrs"
+                android:padding="1dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:gravity="left"
+                android:textColor="#323232"
+                android:text="Prakhar Agnihotri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="3dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:tint="#FFC10322"
+                android:src="@drawable/phone"
+                android:layout_width="14dp"
+                android:layout_height="14dp" />
+
+            <TextView
+
+                android:id="@+id/phone"
+                android:padding="2dp"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textColor="#3e3e3e"
+                android:text="9425813670"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:tint="#FFC10322"
+                android:src="@drawable/location"
+                android:layout_width="14dp"
+                android:layout_height="14dp" />
+
+            <TextView
+
+                android:lines="1"
+                android:ellipsize="end"
+                android:id="@+id/city"
+                android:padding="2dp"
+                android:layout_marginLeft="2dp"
+                android:textSize="12sp"
+                android:textColor="#3e3e3e"
+                android:text="9425813670"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+
+        android:background="#FFC10322"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</LinearLayout>
