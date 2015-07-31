@@ -60,7 +60,7 @@
                     app:layout_collapseMode="pin"
                     android:layout_width="match_parent"
 
-                    app:layout_coll
+
                     apseParallaxMultiplier="0.7"
 
 
